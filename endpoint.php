@@ -5,10 +5,11 @@ if (isset($_GET['slack_name']) && isset($_GET['track'])) {
     $track = $_GET['track'];
 	// Assign status code
 	$statusCode = 200;
+	
 	$currentDayOfWeek = gmdate('l');
 	$utcTime = gmdate("Y-m-d\TH:i:s\Z");
-	$githubFileUrl
-	$githubRepoUrl
+	$githubFileUrl = 'https://github.com/Ezrael101/Backend-track/blob/main/endpoint.php';
+	$githubRepoUrl 'https://github.com/Ezrael101/Backend-track';
 
 	$response = array(
     'slack_name' => $slackName,
