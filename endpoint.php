@@ -1,7 +1,7 @@
 <?php
 if (isset($_GET['slack_name']) && isset($_GET['track'])) {
     // Retrieve the values in the GET request
-    $slack_name = $_GET['slack_name'];
+    $slackName = $_GET['slack_name'];
     $track = $_GET['track'];
 	// Assign status code
 	$statusCode = 200;
