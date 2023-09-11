@@ -9,7 +9,7 @@ if (isset($_GET['slack_name']) && isset($_GET['track'])) {
 	$currentDayOfWeek = gmdate('l');
 	$utcTime = gmdate("Y-m-d\TH:i:s\Z");
 	$githubFileUrl = 'https://github.com/Ezrael101/Backend-track/blob/main/endpoint.php';
-	$githubRepoUrl 'https://github.com/Ezrael101/Backend-track';
+	$githubRepoUrl = 'https://github.com/Ezrael101/Backend-track';
 
 	$response = array(
     'slack_name' => $slackName,
