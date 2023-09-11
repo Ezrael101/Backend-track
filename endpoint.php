@@ -7,6 +7,8 @@ if (isset($_GET['slack_name']) && isset($_GET['track'])) {
 	$statusCode = 200;
 	$currentDayOfWeek = gmdate('l');
 	$utcTime = gmdate("Y-m-d\TH:i:s\Z");
+	$githubFileUrl
+	$githubRepoUrl
 
 	$response = array(
     'slack_name' => $slackName,
@@ -14,7 +16,7 @@ if (isset($_GET['slack_name']) && isset($_GET['track'])) {
     'utc_time' => $utcTime,
 	'track' => $track,
     'github_file_url' => $githubFileUrl,
-    'github_source_code_url' => $githubSourceCodeUrl,
+    'github_repo_url' => $githubRepoUrl,
     'status_code' => $statusCode
 );
     header('Content-Type: application/json');
